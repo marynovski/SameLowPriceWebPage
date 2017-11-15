@@ -1,0 +1,512 @@
+
+
+body{
+    background: #0A0C0D;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited, a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.up-bar {
+    width: 60em;
+    height: 2.5em;
+    background: black;
+    background: #1C2427;
+}
+
+.nothing-up-bar {
+    width: 50em;
+    height: 2.5em;
+    float: left;
+}
+
+.social-link-tiles {
+    width: 10em;
+    height: 2.5em;
+    float: left;
+}
+
+.social-link-tile {
+    width: 2.5em;
+    height: 2.25em;
+    float: left;
+    text-align: center;
+    padding-top: 0.25em;
+    transition-duration: 5s;
+}
+
+.social-link-tile:hover {
+    background: #FFFFFF;
+}
+
+.social-link-tile:hover > i.icon-steam-squared
+{
+    color: #000000;
+    transition-duration: 1s;
+}
+
+.social-link-tile:hover > i.icon-facebook-squared
+{
+    color: #3B5998;
+    transition-duration: 1s;
+}
+
+.social-link-tile:hover > i.icon-youtube-squared
+{
+    color: #CC181E;
+    transition-duration: 1s;
+}
+
+
+
+
+.header {
+    width: 60em;
+    height: 13.75em;
+    background: #333E41;
+}
+
+.container {
+    width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-place {
+    width: 15em;
+    height: 13.75em;
+    float: left;
+}
+
+.logo-place > figure > img
+{
+    width: 12em;
+    height: 10em;
+}
+
+.banner-place {
+    width: 45em;
+    height: 13.75em;
+    float: left;
+}
+
+.banner-place > img
+{
+    margin: 0;
+    padding: 0;
+    width: 45em;
+    height: 13.75em;
+}
+
+
+
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 30px; 
+}
+
+ol > li
+{
+    float: left;
+    width: 7.5em;
+    height: 1.5em;
+    padding-top: 0.25em;
+    background: #1C2427;
+    transition-duration: 2s;
+    transition-property: background;
+}
+
+ol > li > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ol > li > ul > li
+{
+    transition-property: background;
+    transition-duration: 2s;
+    width: 7.5em;
+    height: 1.5em;
+    padding-top: 0.25em;
+    background: #2d3538;
+    display: none;
+}
+
+ol > li > ul > li:first-child
+{
+    margin-top: 0.325em;
+}
+
+ol > li > ul > li:hover
+{
+    background: #9795FF;
+}
+
+ ol > li:hover
+{
+   background: #6362CC;
+}
+
+
+
+ol > li:hover > ul > li {
+    display: block;
+    z-index: 100;
+    position: relative;
+}
+
+.content {
+    padding-top: 6em;
+    width: 60em;
+    padding-bottom: 2em;
+    background: #333E41;
+    text-align: center;
+}
+
+.oferta {
+    width: 15em;
+    height: 15em;
+    float: left;
+}
+
+.footer {
+    width: 60em;
+    height: 1.5em;
+    padding-top: 0.5em;
+    text-align: center;
+    background: #1C2427;
+}
+
+.dodatkowe-info {
+    width: 60em;
+    height: 18em;
+    background: #454E51;
+    font-size: 15px;
+}
+
+.mapa {
+    float: left;
+    width: 15em;
+}
+
+.linki {
+    float: left;
+    width: 15em;
+}
+
+.autor {
+    float: left;
+    width: 14em;
+    padding-left: 1em;
+}
+
+.strona {
+    float: left;
+    width: 15em;
+}
+
+
+
+@media (min-width: 1400px){
+    body{
+        font-size: 25px;
+    }
+    
+    ol{
+        font-size: 50px;
+    }
+    
+    .dodatkowe-info{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 900px){
+    body{
+        font-size: 10px;
+    }
+    
+    ol{
+        font-size: 20px;
+    }
+    
+    .dodatkowe-info{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 600px){
+
+    .opis{
+        padding-left: 2em;
+        padding-right: 0;
+    }    
+
+body{
+    background: #0A0C0D;
+    color: #FFFFFF;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+a:link, a:visited, a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.up-bar {
+    width: 100%;
+    height: 2.5em;
+    background: black;
+    background: #1C2427;
+}
+
+.nothing-up-bar {
+    display: none;
+}
+
+.social-link-tiles {
+    width: 100%;
+    height: 2.5em;
+    float: left;
+}
+
+.social-link-tile {
+    width: 25%;
+    height: 2.25em;
+    float: left;
+    text-align: center;
+    padding-top: 0.25em;
+    transition-duration: 5s;
+}
+
+.social-link-tile:hover {
+    background: #FFFFFF;
+}
+
+.social-link-tile:hover > i.icon-steam-squared
+{
+    color: #000000;
+    transition-duration: 1s;
+}
+
+.social-link-tile:hover > i.icon-facebook-squared
+{
+    color: #3B5998;
+    transition-duration: 1s;
+}
+
+.social-link-tile:hover > i.icon-youtube-squared
+{
+    color: #CC181E;
+    transition-duration: 1s;
+}
+
+
+
+
+.header {
+    width: 100%;
+    height: 13.75em;
+    background: #333E41;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-place {
+    width: 100%;
+    height: 13.75em;
+    float: left;
+}
+
+.logo-place > figure > img
+{
+    width: 100%;
+    height: 10em;
+}
+
+.banner-place {
+    display: none;
+}
+
+.banner-place > img
+{
+    display: none;
+}
+
+
+
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 30px; 
+}
+
+ol > li
+{
+    text-align: center;
+    width: 100%;
+    height: 1.5em;
+    padding-top: 0.25em;
+    background: #1C2427;
+    transition-duration: 2s;
+    transition-property: background;
+}
+
+ol > li > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ol > li > ul > li
+{
+    transition-property: background;
+    transition-duration: 2s;
+    width: 100%;
+    height: 1.5em;
+    padding-top: 0.25em;
+    background: #2d3538;
+    display: none;
+}
+
+ol > li > ul > li:first-child
+{
+    margin-top: 0.325em;
+}
+
+ol > li > ul > li:hover
+{
+    background: #9795FF;
+}
+
+ ol > li:hover
+{
+   background: #6362CC;
+}
+
+
+
+ol > li:hover > ul > li {
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.content {
+    width: 100%;
+    background: #333E41;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 1.5em;
+    padding-top: 0.5em;
+    text-align: center;
+    background: #1C2427;
+}
+
+.dodatkowe-info {
+    display: none;
+}
+
+.mapa {
+    display: none;
+}
+
+.linki {
+   display: none;
+}
+
+.autor {
+    display: none;
+}
+
+.strona {
+    display: none;
+}
+    
+    .oferta{
+        clear: both;
+        width: 100%;
+    }    
+    .oferta-tekst {
+    font-size: 1.5em;
+        text-align: center;
+}
+    
+}
+
+
+
+
+.oferta-tekst {
+    font-size: 1.5em;
+}
+
+.header-main {
+    font-size: 100px;
+}
+
+.wymagania {
+    text-align: left;
+}
+
+.oferta-pracy {
+    text-align: left;
+}
+
+.opis {
+    float: left;
+width: 28em;
+    padding-right: 2em;
+    text-align: justify;
+}
+
+
+.pol-content {
+    float: left;
+    width: 28em;
+    padding-left: 2em;
+}
+
+.form-labels {
+    display: block;
+}
+
+
+
+.form-podanie {
+    padding-left: 2em;
+    font-size: 1.5em;
+}
+
+.regulamin {
+    text-align: left;
+    padding-left: 2em;
+}
+
+
+
+
